@@ -1,0 +1,20 @@
+/*style for bootstrap custom popovers*/
+.custom-popover {
+    --bs-popover-max-width: 250px;
+    --bs-popover-border-color: var(--bs-primary);
+    --bs-popover-header-bg: var(--bs-primary);
+    --bs-popover-header-color: var(--bs-white);
+    --bs-popover-body-padding-x: 1rem;
+    --bs-popover-body-padding-y: .5rem;
+}
+
+/*style for those table-data/table-header/other-content which need to be display in phone only*/
+.phone-only {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .phone-only {
+        display: block;
+    }
+}
